@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="mock-apigeemock">
+    <Description>target endpoint pointing to mock server for apigee_mock</Description>
+	<FaultRules>
+	</FaultRules>
+    <HTTPTargetConnection>
+        <LoadBalancer>
+	      <Algorithm>Weighted</Algorithm>
+	      <Server name="tsr-apigee-mock.net">
+	        <Weight>8</Weight>
+	      </Server>
+	    </LoadBalancer>
+    <Path>/</Path>
+    </HTTPTargetConnection>
+</TargetEndpoint>

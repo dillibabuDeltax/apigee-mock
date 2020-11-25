@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:1013190eb6fe25f6220bea9f2d0d1476362f9163301c96f65d195f3d0711c44952e90bbc207db829c9af2cd0a3f355ecacec10f91f4c5f17e4cea7fc3a07286a"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <!-- This section is populated by proxy-gen tool -->
+    <TargetEndpoints>
+		<VersionInfo resourceName="SpringBootRKE-apigeemock" version="SHA-512:447510170658b6d19a926fe941d566513b31fe7f892cb03e69d94be92c9ad4f9e78aa4cefe11e311c7b55a4128a2812600717d852d6b2e5435b370d4299f25a5"/>
+		<VersionInfo resourceName="mock-apigeemock" version="SHA-512:a57dd33c25a085931ab7408aa3588240519500bb1112eb8744b25904c966100cd2e219a2b18072717b116796797e0a8eb0ae19db4860f7c36c11b80e56de7f5b"/>
+    </TargetEndpoints>
+</Manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="SpringBootRKE-apigeemock">
+    <Description>spring boot RKE Target endpoint for  apigge_mock and this connects to East and West</Description>
+	<FaultRules>
+	</FaultRules>
+    <HTTPTargetConnection>
+        <LoadBalancer>
+	      <Algorithm>Weighted</Algorithm>
+	      <Server name="tsr-api-infoarmor-apigeemock-io">
+	        <Weight>8</Weight>
+	      </Server>
+	    </LoadBalancer>
+    <Path>/</Path>
+    </HTTPTargetConnection>
+</TargetEndpoint>
